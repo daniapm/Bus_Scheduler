@@ -12,4 +12,5 @@ data class Schedule(
     @PrimaryKey val id: Int,
     @NonNull @ColumnInfo(name = "stop_name") val stopName: String,
     @NonNull @ColumnInfo(name = "arribal_time") val arrivalTime: Int,
+
  )
